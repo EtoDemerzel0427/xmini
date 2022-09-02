@@ -1,0 +1,23 @@
+text Hello
+text "Hello World"
+output 42
+output + 1 1
+var x 42
+output x
+var y 1
+output y
+output * x x  // 1764
+output + * x x * y y  // 1764 + 1 = 1765
+// say something or nothing
+set y + x 1 // 1765
+output y
+
+set x 43
+output x
+set x + x 1  // 44
+output x
+set x
+    *
+       + 5 3
+       - x 1    // 8 * 43 = 344
+output x
